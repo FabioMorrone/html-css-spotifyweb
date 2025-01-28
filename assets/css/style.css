@@ -42,8 +42,10 @@
 
 
 .sidebar{
-    
+    width: 230px;
+    background-color: var(--spo-primary);
     .logo{
         width: 130px;
     }
 }
+
