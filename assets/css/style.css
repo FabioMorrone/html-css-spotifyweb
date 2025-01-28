@@ -6,6 +6,16 @@
     box-sizing: border-box
 }
 
+:root{
+    --spo-primary: #141922;
+    --spo-light : #FFFFFF;    
+    --spo-dark: #000000;
+    --spo-soft-dark: #6d6d6d;
+    --spo-line: #adff2f;
+}
+
+
+
 .debug {
     * {
         border: 1px dashed;
@@ -25,5 +35,15 @@
     .bottom{
         background-color: yellow;
         height: 300px;
+    }
+}
+
+
+
+
+.sidebar{
+    
+    .logo{
+        width: 130px;
     }
 }
