@@ -15,7 +15,9 @@
 
 
 
+
 body {
+    font-family: "Montserrat", serif;
     height: 100vh;
 
     .top {
@@ -56,15 +58,36 @@ body {
             color: var(--spo-soft-dark);
         }
 
-        .playlist{
-            
-            h3{
-                color:white;
+        .playlist {
+           
+
+
+            h3 {
+                color: white;
                 margin-left: 1rem;
                 margin-top: 1rem;
             }
+
+            
         }
+        .list-playlist{
+            display: flex;
+            margin-left: 1rem;
+            align-items: center;
+            margin-top: 1rem;
+        h3{
+            margin-left: 0.5rem;
+            color: var(--spo-soft-dark);
+        }
+            i {
+                background-color: var(--spo-soft-dark);
+                padding: 0.5rem
+            }
+        }
+
+
     }
+
 
     main {
         background-color: var(--spo-primary);
