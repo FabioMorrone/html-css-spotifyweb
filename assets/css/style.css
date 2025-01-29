@@ -64,7 +64,7 @@ body {
 
         .playlist {
             h3 {
-                font-size: s;
+                font-size: 1rem;
                 color: white;
                 margin-left: 1rem;
                 margin-top: 0.5rem;
@@ -99,19 +99,23 @@ body {
         }
 
         .sidebar-bottom {
+            
+
+          
+     
+
             color: var(--spo-soft-dark);
             h4{
                 margin-left: 0.5rem;
             }
-            
-            
+           
 
 
 
 
 
             hr {
-                
+                margin: 1rem;
             }
 
 
