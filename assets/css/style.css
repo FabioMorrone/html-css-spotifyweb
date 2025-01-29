@@ -152,7 +152,25 @@ body {
                 text-decoration: none;
                 color: var(--spo-soft-dark);
                 padding-left: 1rem;
+                
             }
+        }
+
+        section{
+            color: var(--spo-light);
+            padding-top:2.5rem;
+            margin-left: 1rem;
+
+            .albums{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+            .album {
+                
+                width: calc(100% / 6 - 1);
+                
+              }
         }
     }
 
@@ -163,7 +181,7 @@ body {
 }
 
 .button {
-    background-color: #14192265;
+    background-color: #1e263365;
     position: sticky;
     top: 0;
     right: 0;
@@ -183,4 +201,6 @@ body {
         text-decoration: none
     }
 }
+
+
 
