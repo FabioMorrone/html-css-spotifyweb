@@ -272,8 +272,10 @@ body {
     .bottom {
         background-color: var(--spo-footer);
         height: 90px;
+        display: flex;
 
         .album-play {
+            width: 20%;
             display: flex;
             padding: 1.5rem;
         }
@@ -304,12 +306,32 @@ body {
         }
 
         .riproduzione{
-
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
             .icon-bottom{
-                text-align: center;
-                justify-content: center;
+
+                a{
+                    
+                    padding: 1rem;
+                    font-size:medium;
+                    text-decoration: none;
+                    color: var(--spo-light);
+                    
+                    
+                }
+                .play{
+                    margin-top: 1rem;
+                    font-size: x-large;
+                }
             }
             
+            
+        }
+        .volume{
+            width: 20%;
         }
     }
 }
