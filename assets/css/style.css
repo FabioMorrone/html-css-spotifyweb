@@ -272,5 +272,44 @@ body {
     .bottom {
         background-color: var(--spo-footer);
         height: 90px;
+
+        .album-play {
+            display: flex;
+            padding: 1.5rem;
+        }
+
+        .group {
+            align-content: center;
+            margin-left: 1rem;
+
+            h4 {
+                font-size: small;
+                color: var(--spo-light);
+            }
+
+            p {
+                font-size: x-small;
+                color: var(--spo-soft-dark);
+            }
+        }
+
+        .icon-album{
+            padding: 0.5rem;
+            margin-left: 1rem;
+            
+            a{
+                color: var(--spo-soft-dark)
+
+            }
+        }
+
+        .riproduzione{
+
+            .icon-bottom{
+                text-align: center;
+                justify-content: center;
+            }
+            
+        }
     }
 }
