@@ -332,6 +332,15 @@ body {
         }
         .volume{
             width: 20%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            align-content: center;
+            a{
+                padding: 0.5rem;
+                text-decoration: none;
+                color: var(--spo-light);
+            }
         }
     }
 }
